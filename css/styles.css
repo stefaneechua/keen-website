@@ -8,14 +8,9 @@ html, body {
 }
 
 a {
-  color: #FDCC52;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
-}
-
-a:hover, a:focus {
-  color: #fcbd20;
 }
 
 .wrapperHome {
@@ -43,26 +38,26 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 ul li, ul li a {
+  margin: 0 7px;
   display: inline-block;
-  margin-left: 7px;
-  margin-right: 7px;
-  overflow: hidden;
 }
 
+/*======================================
+=            BACKGROUND STYLES         =
+======================================*/
+
 .wrapperBG {
-  margin-top: 9%;
-  margin-left: 3%;
-  padding-bottom: 50px;
+  margin: 9% 0 0 3%;
+  padding-bottom: 70px;
 }
 
 h1.keenHeader {
   color: white;
   font-family: 'Heebo', sans-serif;
-  font-weight: 'thin';
+  font-weight: lighter;
   font-size: 6em;
   letter-spacing: 10px;
   text-shadow: 2px 2px 8px #3d3d3d;
@@ -72,15 +67,117 @@ h1.keenHeader {
 h2.keenHeader2 {
   color: white;
   font-family: 'Shrikhand', sans-serif;
-  font-size: 6em;
+  font-size: 6.2em;
   margin-right: 20%;
+  text-shadow: 2px 2px 10px #3d3d3d;
   cursor: default;
 }
 
+/*======================================
+=            CONTACT STYLES           =
+======================================*/
+
 .wrapperContact {
-  height: 70%;
-  background-color: white;
-  background-size: cover;
-  background-attachment: fixed;
+  margin: 7% 0 5% 0;
+  width: 100%;
+  background: white cover scroll;
   overflow: hidden;
+}
+
+.contact {
+  margin: 0 auto;
+	min-width: 50%;
+  max-width: 100%;
+}
+
+#contactForm {
+	background: #F9F9F9;
+	padding: 25px;
+}
+
+#contactForm h3 {
+	color: #F96;
+	display: block;
+  font: bolder 35px "Heebo", sans-serif;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	width: 100%;
+}
+
+#contactForm input, textarea {
+	width: 100%;
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	margin: 0 0 5px;
+	padding: 10px;
+}
+
+#contactForm textarea {
+	height: 100px;
+  resize: none;
+}
+
+#contactForm input:hover, textarea:hover {
+	-webkit-transition:border-color 0.4s ease-in-out;
+	-moz-transition:border-color 0.4s ease-in-out;
+	transition:border-color 0.4s ease-in-out;
+	border: 1px solid #ccccff;
+}
+
+#contact input:focus, #contact textarea:focus {
+	outline: 0;
+	border: 1px solid #999;
+}
+
+#contactForm button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+  padding: 10px;
+	border: none;
+	background: #457fca;
+  font-size: 15px;
+	color: #FFF;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#contactForm button[type="submit"]:hover {
+	background: #09C;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+/*======================================
+=            FOOTER STYLES           =
+======================================*/
+
+footer {
+  background: #0E0E0E;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
+  padding: 1.5%;
+  font: lighter 1.5em;
+  color: white;
+}
+
+p.keenFooter {
+  font: 1.7em "Shrikhand", sans-serif;
 }
