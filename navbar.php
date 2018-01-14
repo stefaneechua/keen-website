@@ -13,11 +13,11 @@
 
        <ul class="nav navbar-nav">
        <?php
-        do  {
-          echo $cat_res['name']; ?> | 
+        do  { ?>
+          <a href="category.php?categoryID=<?php echo $cat_res['categoryID']; ?>"><?php echo $cat_res['name']; ?></a>
 
           <?php
-        } while ($cat_res = mysqli_fetch_assoc ($cat_query))
+          } while ($cat_res = mysqli_fetch_assoc ($cat_query))
         ?>
       </ul>
 
