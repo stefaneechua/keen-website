@@ -33,6 +33,10 @@
     <div class="wrapperHome">
       <?php
         include ('navbar.php');
+      // check if user is visiting a page other than home
+      if (!isset($_GET['page'])) {
+        ?><div class=""></div>
+      }
        ?>
 
       <div class="wrapperBG container-fluid">

@@ -11,6 +11,7 @@ a {
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
+  text-decoration: none;
 }
 
 .wrapperHome {
@@ -36,12 +37,8 @@ a {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul li, ul li a {
   margin: 0 7px;
+  padding: 0;
   display: inline;
 }
 
