@@ -38,14 +38,12 @@
         include ('home.php');
       } else {
         $page = $_GET['page'];
-			  include ('$page.php');
+			  include ("$page.php");
       }
 
         ?>
 
-      <?php
-        include ('home.php'); ?>
-
+    </div>
     <?php
       include ('footer.php'); ?>
 
