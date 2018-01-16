@@ -12,7 +12,7 @@
   }
 
   if(mysqli_num_rows($listings_query)==0) {
-    echo "Sorry, there are no current listings.";
+    echo "Sorry, there are no current listings available.";
   } else {
     echo "<h1>".$listings_res["catname"]."</h1>";
     do {

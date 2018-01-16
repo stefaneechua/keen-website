@@ -33,7 +33,7 @@
     <div class="wrapperHome">
       <?php
         include ('navbar.php');
-      // check to see if user is visiting a page other than home
+      // checks to see if user is currently on a page except home
       if (!isset($_GET['page'])) {
         include ('home.php');
       } else {
