@@ -10,7 +10,7 @@
       ?>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Admin Login</a></li>
+      <li><a href="index.php?page=admin"><span class="glyphicon glyphicon-log-in"></span> Admin Login</a></li>
     </ul>
   </div>
 </nav>
