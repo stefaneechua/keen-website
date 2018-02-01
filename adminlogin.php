@@ -1,4 +1,5 @@
-<div class="col-md-6 text-center contact">
+<div class="col-md-3"></div>
+<div class="col-md-6 text-center contact" style="margin-bottom: 20px;">
 <form id="contactForm" action="index.php?page=admin" method="post">
   <h3>Admin Login</h3>
   <fieldset>
@@ -18,3 +19,5 @@
     <button name="login" type="submit" id="contact-submit">Login</button>
   </fieldset>
 </form>
+</div>
+<div class="col-md-3"></div>

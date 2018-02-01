@@ -1,3 +1,5 @@
+<div class="container wrapperAddListings">
+
 <?php
   session_start();
 
@@ -35,4 +37,6 @@
 		</div>
 
 
-<p><a href="index.php?page=addListing">Go back</a> - <a href="index.php?page=enterListingDB">Confirm</a></p>
+    <p><a href="index.php?page=addListing">Go back</a> &nbsp; <a href="index.php?page=addListingToDB">Confirm</a></p>
+
+</div>

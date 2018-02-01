@@ -22,7 +22,7 @@
     <script src="https://use.fontawesome.com/48437d1460.js"></script>
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/keen_favicon.png">
@@ -33,6 +33,7 @@
     <div class="wrapperHome">
       <?php
         include ('navbar.php');
+
       // checks to see if user is currently on a page except home
       if (!isset($_GET['page'])) {
         include ('home.php');

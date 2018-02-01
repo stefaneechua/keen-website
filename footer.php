@@ -13,7 +13,7 @@
             <li><a href="https://www.behance.net/stefaneechua">
               <i class="fa fa-behance fa-lg"></i>
             </a></li>
-            <li><a href="https://www.instagram.com/stefaneeux">
+            <li><a href="https://www.instagram.com/uxstefanee">
               <i class="fa fa-instagram fa-lg"></i>
             </a></li>
             <li><a href="http://bit.ly/2xDn5Ok">
